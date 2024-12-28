@@ -1,10 +1,10 @@
 const TelegramBot = require('node-telegram-bot-api');
 const SpotifyWebApi = require('spotify-web-api-node');
 
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = '5164304737:AAFfRgQNILMzslHfomA86kSQpZiisKmRnv4';
 const spotifyApi = new SpotifyWebApi({
-  clientId: 'YOUR_SPOTIFY_CLIENT_ID',
-  clientSecret: 'YOUR_SPOTIFY_CLIENT_SECRET'
+  clientId: '22b6125bfe224587b722d6815002db2b',
+  clientSecret: 'c9c63c6fbf2f467c8bc68624851e9773'
 });
 
 const bot = new TelegramBot(token, {polling: true});
